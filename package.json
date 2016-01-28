@@ -1,44 +1,44 @@
 {
-  "name": "sphero",
-  "version": "0.3.0",
-  "description": "Sphero.js",
-  "homepage": "http://gosphero.com",
-  "bugs": "https://github.com/orbotix/sphero.js/issues",
-  "author": "Orbotix Inc.",
+    "name": "sphero",
+    "version": "0.3.0",
+    "description": "Sphero.js",
+    "homepage": "http://gosphero.com",
+    "bugs": "https://github.com/orbotix/sphero.js/issues",
+    "author": "Orbotix Inc.",
 
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/orbotix/sphero.js"
-  },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/orbotix/sphero.js"
+    },
 
-  "license": "MIT",
+    "license": "MIT",
 
-  "keywords": [
-    "robot",
-    "robots",
-    "robotics",
-    "hardware",
-    "sphero",
-    "spherojs",
-    "sphero-js",
-    "orbotix"
-  ],
+    "keywords": [
+        "robot",
+        "robots",
+        "robotics",
+        "hardware",
+        "sphero",
+        "spherojs",
+        "sphero-js",
+        "orbotix"
+    ],
 
-  "devDependencies": {
-    "sinon-chai": "2.7.0",
-    "chai": "2.3.0",
-    "sinon": "1.14.1",
-    "mocha": "2.2.5",
+    "devDependencies": {
+        "sinon-chai": "2.7.0",
+        "chai": "2.3.0",
+        "sinon": "1.14.1",
+        "mocha": "2.2.5",
 
-    "grunt": "0.4.5",
+        "grunt": "0.4.5",
 
-    "eslint": "0.22.1",
-    "browserify": "10.2.3",
-    "uglify-js": "2.4.23"
-  },
+        "eslint": "0.22.1",
+        "browserify": "10.2.3",
+        "uglify-js": "2.4.23"
+    },
 
-  "dependencies": {
-    "serialport": "1.7.1",
-    "browser-serialport": "2.0.2"
-  }
+    "dependencies": {
+        "serialport": "*",
+        "browser-serialport": "2.0.2"
+    }
 }
