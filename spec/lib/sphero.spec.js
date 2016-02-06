@@ -25,8 +25,8 @@ describe("Sphero", function() {
       expect(sphero.connection).to.be.an.instanceOf(SerialPort);
     });
 
-    it("sets @sop2Bitfield to SOP2.answer by default", function() {
-      expect(sphero.sop2Bitfield).to.be.eql(0xFD);
+    it("sets @sop2Bitfield to SOP2.both by default", function() {
+      expect(sphero.sop2Bitfield).to.be.eql(0xFF);
     });
 
     it("sets @seqCounter to 0x00", function() {
@@ -308,7 +308,8 @@ describe("Sphero", function() {
         did: 0x00,
         cid: 0x01,
         seq: 0x01,
-        data: null
+        data: null,
+        emitPacketErrors: false
       };
 
       cmdByteArray = [0xFF, 0xFF, 0x00, 0x01, 0x01, 0xFE];
